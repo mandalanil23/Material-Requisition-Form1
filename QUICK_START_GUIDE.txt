@@ -1,0 +1,277 @@
+# ⚡ Construction MRF Form - Quick Start Guide
+
+## 🚀 For Construction Managers (30 Seconds Setup)
+
+### 1️⃣ SETUP (Admin Only - 5 Minutes)
+```
+1. Open CONSTRUCTION_MRF_SETUP.md (detailed guide)
+2. Create Google Sheet
+3. Deploy Apps Script
+4. Update HTML URL
+5. Deploy on Netlify (drag & drop)
+6. DONE! ✓
+```
+
+### 2️⃣ SHARE WITH TEAM
+Send this link to everyone:
+```
+YOUR_FORM_URL_HERE
+```
+
+### 3️⃣ TRACK SUBMISSIONS
+Open your Google Sheet to see:
+- New requisitions in real-time
+- Who requested what
+- Item quantities
+- Required dates
+- Status tracking
+
+---
+
+## 📝 For Site Engineers / Material Coordinators
+
+### How to Submit Material Requisition
+
+#### Step 1: Open Form
+Click the link → Form opens ✓
+
+#### Step 2: Fill Basic Info
+```
+📅 Date          → Auto-filled (today's date)
+🔢 MRF Number    → e.g., MRF-2024-001
+👤 Requested By  → Your name
+📍 Location      → Select your project site
+```
+
+#### Step 3: Add Materials
+```
+1. Click "+ Add Item" button
+2. Select Material from dropdown
+   → Stock quantity auto-appears
+3. Enter Quantity needed
+4. Unit auto-fills (Bags, Kg, Piece, etc.)
+5. Select Required Date
+6. Add remarks (optional)
+7. Click "Add Item" to add more
+```
+
+#### Step 4: Upload Documents
+```
+📄 MRF Document  → Attach MRF/requisition file
+💰 Quotation 1   → First vendor quotation
+💵 Quotation 2   → Second vendor quotation
+```
+
+All files MUST be under 5MB
+
+#### Step 5: Submit
+```
+1. Click "Preview" to check everything
+2. Click "Submit MRF"
+3. Wait for success message ✓
+4. Done! Manager will process it
+```
+
+---
+
+## 📊 Material Status Guide
+
+### Stock Indicators
+```
+✓ OK         → Plenty in stock (green)
+⚠️ LOW       → Low stock (yellow)
+❌ OUT       → Not in stock (red)
+```
+
+### MRF Status Flow
+```
+📥 NEW        → Just submitted
+⏳ PENDING    → Manager reviewing
+✅ APPROVED   → Ready to purchase
+❌ REJECTED   → Needs revision
+📦 COMPLETED  → Items received
+```
+
+---
+
+## 🎯 Best Practices
+
+### Do ✓
+- ✓ Submit early (avoid delays)
+- ✓ Use correct MRF numbers
+- ✓ Attach all quotations
+- ✓ Add remarks for special items
+- ✓ Check stock before ordering
+
+### Don't ✗
+- ✗ Don't upload files > 5MB
+- ✗ Don't submit incomplete forms
+- ✗ Don't change MRF numbers manually
+- ✗ Don't duplicate submissions
+
+---
+
+## 🆘 Quick Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| **Form won't load** | Clear browser cache, try incognito |
+| **Dropdown empty** | Wait 5 seconds, refresh page |
+| **Stock not showing** | Select material, wait 2 seconds |
+| **Can't upload file** | Check file is under 5MB |
+| **Submit error** | Check all fields are filled, retry |
+| **Google Sheet not updating** | Contact admin, check internet |
+
+---
+
+## 📞 Need Help?
+
+**For Technical Issues:**
+- Contact: IT/Admin team
+- Email: admin@construction.com
+
+**For Material Queries:**
+- Contact: Material coordinator
+- Contact: Warehouse manager
+
+**For Form Updates:**
+- Contact: Project manager
+
+---
+
+## 📱 Works On
+
+✅ Desktop Computer  
+✅ Laptop  
+✅ Tablet (iPad)  
+✅ Mobile Phone  
+
+**Just open the link in any browser!**
+
+---
+
+## ⏱️ Response Times
+
+- **Admin Notification:** Instant email
+- **Sheet Update:** 1-5 seconds
+- **Manager Review:** 1-2 business days
+- **Purchase Order:** 2-5 business days
+
+---
+
+## 🎨 Form Features Explained
+
+### Materials Dropdown
+- Shows all available materials
+- Auto-updates with latest stock
+- Easy to search and select
+
+### Quantity Field
+- Enter any quantity
+- Auto-calculates against stock
+- Shows warning if low stock
+
+### Date Fields
+- Simple calendar picker
+- Shows when you need items
+- Helps with planning
+
+### Preview Button
+- See form before submitting
+- Print if needed
+- Verify all details
+
+### File Uploads
+- Multiple file formats supported
+- MRF documents (PDF, Doc)
+- Quotations (Excel, PDF)
+- Photos/Images (JPG, PNG)
+
+---
+
+## 💡 Tips & Tricks
+
+### Tip 1: Bulk Submissions
+```
+Need multiple items? 
+- Click "Add Item" multiple times
+- Fill all at once
+- Submit together
+```
+
+### Tip 2: Draft Saving
+```
+Want to save draft?
+- Fill form
+- NOT YET SUBMITTED
+- Use browser history/refresh
+- Form data usually persists
+```
+
+### Tip 3: Track Your MRFs
+```
+Keep track of your MRF numbers
+- Check submitted MRFs in Google Sheet
+- Get confirmation emails
+- Reference for follow-up
+```
+
+### Tip 4: Estimate Costs
+```
+Add cost estimates in remarks
+- Helps manager plan budget
+- Shows cost awareness
+- Speeds up approval
+```
+
+---
+
+## 📋 Example MRF Submission
+
+**Scenario:** Need materials for concrete work
+
+```
+📅 Date:        15-Mar-2024
+🔢 MRF No:      MRF-2024-045
+👤 By:          Raj Kumar (Site Engineer)
+📍 Location:    Mumbai - Site A
+
+Materials Added:
+┌──────────────┬────────┬──────────┬────────────┐
+│ Material     │ Qty    │ Unit     │ Need By    │
+├──────────────┼────────┼──────────┼────────────┤
+│ Cement       │ 100    │ Bags     │ 18-Mar     │
+│ Steel Bars   │ 500    │ Kg       │ 18-Mar     │
+│ Sand         │ 10     │ Cu.Meter │ 17-Mar     │
+└──────────────┴────────┴──────────┴────────────┘
+
+Notes: Urgent - Construction deadline
+Attachments: 2 quotations uploaded ✓
+
+Result: ✅ SUBMITTED SUCCESSFULLY
+```
+
+---
+
+## 🎓 Learning Resources
+
+- **Video Tutorial:** (Link to be provided)
+- **PDF Guide:** (Download available)
+- **FAQs:** (Posted in office)
+- **Training Session:** Schedule with admin
+
+---
+
+## 📞 Emergency Contact
+
+**Form not working?**
+📧 Email: it-support@construction.com
+☎️ Phone: +91-XXXX-XXXX-XX
+💬 WhatsApp: Group name
+
+---
+
+**Happy requisitioning! 🏗️**
+
+*Last Updated: March 2024*
+*Version: 1.0*
